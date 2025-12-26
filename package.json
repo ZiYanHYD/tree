@@ -1,0 +1,40 @@
+{
+  "name": "ultimate-christmas-tree",
+  "version": "1.0.0",
+  "description": "3D Particle Christmas Universe with Gesture Control",
+  "main": "untitled.html",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:verbose": "jest --verbose"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "setupFilesAfterEnv": ["<rootDir>/jest.setup.js"],
+    "collectCoverageFrom": [
+      "**/*.test.js"
+    ],
+    "coverageReporters": [
+      "text",
+      "lcov",
+      "html"
+    ],
+    "testMatch": [
+      "**/*.test.js"
+    ]
+  },
+  "keywords": [
+    "threejs",
+    "webgl",
+    "gesture-control",
+    "christmas",
+    "particles"
+  ],
+  "author": "AI Assistant",
+  "license": "MIT"
+}
